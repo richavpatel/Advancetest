@@ -20,19 +20,17 @@ public class ListArray {
 
 		for (String s : uniqueList) {
 
-			
-			  if (u.add(s) == false) { //if i do true then i will get unqiue set!!
-				  System.out.println("Find duplicate string from hash set: " +s);
-				  }
-			  }
-			 
-
-			/*if (u.contains(s)) {
-				System.out.println("Find duplicate string from hash set: "+ s);
+			if (u.add(s) == false) { // if i do true then i will get unqiue set!!
+				System.out.println("Find duplicate string from hash set: " + s);
 			}
-			u.add(s);*/
+		}
 
-		//}
+		/*
+		 * if (u.contains(s)) {
+		 * System.out.println("Find duplicate string from hash set: "+ s); } u.add(s);
+		 */
+
+		// }
 
 	}
 
